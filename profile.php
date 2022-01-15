@@ -18,4 +18,7 @@ curl_close($ch);
 
 echo $result;
 print_r($result);
+echo '<pre>';
+var_dump(json_decode($result));
+echo '</pre>';
 
