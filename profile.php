@@ -1,9 +1,9 @@
 <?php
 
 
-$access_token = '3ALKAbKFoGuJyJnoDdn0HeyfbxLFtEXBKiC0lFeoNl/XbL4WhoCZzefp2n7UDuXaCWfErIDro07BnZNggJmXJChXTIlMPo8LRJ+n1LEgbRUaKehDkiCr5p5CakHrPX+gauOGX/R5bB2e5yi7xjnHDAdB04t89/1O/w1cDnyilFU=';
+$access_token = 'WfqBOyI17jvO7tmFuxZpxFv4CM0IapKvaKoTkgAm4DIrKmeTelGGUmFc1SXEswQgCrQNR9DgHcjipAdfWDaF/8Q/S1oGb4UyLBq6Eu3vgcFhObY1lfP2ey9A8Hv+DeJTZvD1gG2y0zP2gW4OL6/JjwdB04t89/1O/w1cDnyilFU=';
 
-$userId = 'Uffa138efe037e6e889d0b0f4a871c005';
+$userId = 'U8645a02b0886a18a2856220c7e094a15';
 
 $url = 'https://api.line.me/v2/bot/profile/'.$userId;
 
@@ -17,4 +17,5 @@ $result = curl_exec($ch);
 curl_close($ch);
 
 echo $result;
+print_r($result);
 
